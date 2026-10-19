@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coreference"
+version = "0.0.2"
+description = "Coreference utilities"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["coreference"]
+package-dir = {"coreference" = "."}
