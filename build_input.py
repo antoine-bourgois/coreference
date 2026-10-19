@@ -17,6 +17,10 @@ def preprocess_coreference(document):
 
     characters = list(text)
 
+    for mention in mentions:
+        if "type" not in mention:
+            mention["type"] = "mention"
+
     # Process longer mentions first when they share an onset
     non_zero_mentions = [
         m for m in mentions

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: coreference
+Version: 0.0.2
+Summary: Coreference utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# coreference
+coreference resolution experiments

@@ -1,0 +1,14 @@
+README.md
+__init__.py
+build_input.py
+evaluation.py
+extract_coref_ids_from_inline.py
+pyproject.toml
+./__init__.py
+./build_input.py
+./evaluation.py
+./extract_coref_ids_from_inline.py
+coreference.egg-info/PKG-INFO
+coreference.egg-info/SOURCES.txt
+coreference.egg-info/dependency_links.txt
+coreference.egg-info/top_level.txt
